@@ -1,169 +1,175 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap-theme.min.css">
-        <link href="https://fonts.cdnfonts.com/css/yeyey" rel="stylesheet">
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
-    <title>Inicio</title>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+<link href="https://fonts.cdnfonts.com/css/thunderstrike" rel="stylesheet">
+<title>Index</title>
 </head>
 <body>
-    <div style="margin: 24px;">
-        <nav class="navbar navbar-inverse navbar-stick-static-top">
-            <div class="container">
-                <ul class="nav navbar-nav">
-                    <li>
-                        <a href="index.html">Inicio</a>
-                    </li>
-                    <li>
-                        <a href="menu.html">Menu</a>
-                    </li>
-                    <li>
-                        <a href="pedido.html">Pedido</a>
-                    </li>
-                    <li>
-                        <a href="contacto.html">Contactame</a>
-                    </li>
-                    <li>
-                        <a href="calculadorafisica.html">Calculadora de Fisica</a>
-                    </li>
-                    <li>
-                        <li class="active">
-                        <a href="apimovies.html">API-MOVIES</a>
-                    </li>
+  <div style="margin: 24px;">
+  	<nav class="navbar navbar-inverse navbar-stick-static-top">
+  		<div class="container">
+        <ul class="nav navbar-nav">
+          <li class="active">
+            <a href="29MayoIndex.html">inicio</a>
+        </li>
+        <li>
+            <a href="Menu - copia.html">menu</a>
+        </li>
+        <li>
+            <li>
+            <a href="Pedido - copia.html">pedido</a>
+        </li>
+        <li>
+            <a href="Contacto - copia.html">contacto</a>
+        </li>
+        <li>
+          <a href="calculadorafisica.html">Calculadora</a>
+      </li>
+      <li>
+        <a href="apimovies.html">Movies</a>
+      </li>
+           </ul>
+  		</div>
+  	</nav>
+  </div>
+  <center>
+    <footer>
+        <div class="copyrigth">
+            <p>&copy;<span id="year">Derechos reservados.</span></p>
 
-                </ul>
+            <i class="fa fa-facebook" aria-hidden="true"></i>
+            <h2>Contactame</h2>
+            <p>Si estas interesado en contactarme, puedes hacerlo a travez de cualquiera de las siguientes redes sociales.</p>
+            <p>Podras contactarme en cualquiera de estas apps:</p>
+            <p>Agregando solo un poco mas de informacion para que el texto se vea mucho mas ya que no se que mas agregarle...</p>
+            <div class="contact-links">
+            <a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook"></i></a>
+            <a href="https://www.instagram.com/miperfil" target="_blank"><i class="fab fa-instagram"></i></a>
+            <a href="https://www.twitter.com/miperfil" target="_blank"><i class="fab fa-twitter"></i></a>
+            <a href="https://www.discord.com/miperfil" target="_blank"><i class="fab fa-discord"></i></a>
+            <a href="https://www.twitch.com/miperfil" target="_blank"><i class="fab fa-twitch"></i></a>
             </div>
-        </nav>
-    </div>
-    <h1>Index</h1>
-    <div class="jumbotron jumbotron-fluid">
-        <div class="container">Tortas TommyGun</h1>
-        <video autoplay muted preload loop>
-            <source src="videoplayback.mp4" type="video/mp4">
-        </video>
+            
+            
+            
+            
+            <script>
+              const redessociales=document.querySelectorAll('.contact-links');
+              redessociales.forEach(link =>{
+                  link.addEventListener('click', e=>{
+                  e.preventDefault();
+                  window.open(link.href, '_blank');
+              });
+              });
+            </script>
+    </footer>
+</center>
+<style>
+    body{
+        background-color: black;
+        color: #fff;
+        font-family: 'Thunderstrike', sans-serif;
+font-family: 'Thunderstrike 3D', sans-serif;
+font-family: 'Thunderstrike Gradient', sans-serif;
+font-family: 'Thunderstrike Halftone', sans-serif;
+font-family: 'Thunderstrike Laser', sans-serif;
+font-family: 'Thunderstrike Condensed', sans-serif;
+font-family: 'Thunderstrike Expanded', sans-serif;
+font-family: 'Thunderstrike Italic', sans-serif;
+    }
+    div{
+        position: relative;
+    }
+    video{
+        position: absolute;
+        top: 0%;
+        left: 0%;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+    .titulo{
+        background: black;
+        font-size: 150px;
+        text-align: center;
+        font-weight: 200;
+        mix-blend-mode: multiply;
+    }
+
+
+
+
+    footer{
+background-color:rgb(0, 0, 0);
+color:rgb(16, 207, 134);
+padding: 30px 0;
+}
+.container{
+max-width: 800px;
+margin: 0 auto;
+padding: 0 20px;
+
+}
+.footer-content{
+display: flex;
+flex-wrap: wrap;
+}
+.footer-section{
+width: 100%;
+padding: 20px;
+box-sizing: border-box;
+}
+.about{
+text-align: center;
+}
+.about h2{
+margin-bottom: 20px;
+}
+.about p{
+font-size: 18px;
+line-height: 1.5;
+margin-bottom: 20px;
+}
+.contact-links{
+display: flex;
+justify-content: center;
+}
+.contact-links a{
+display: inline-block;
+color: #fff;
+font-size: 24px;
+margin: 0 10px;
+transition: all 0.3s ease;
+}
+.contact-links a:hover{
+transform: translateY(-5px);
+}
+</style>
+
+
+<div class="jumbotron jumbotron-fluid">
+<div class="container">
+<video autoplay muted preload loop>
+    <source src="fonfoVideo.mp4" type="video/mp4">
+</video>
+<h1 class="titulo">BIENBENIDOS</h1>
+<p class="lead"></p></div>
 </div>
-    <style>
-        body{
-            background-color: black;
-            color: black;
-            font: 'Yeiyei';
-        }
-        div{
-            position: relative;
-        }
-        video{
-            position: absolute;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-            object-fit: cover;
-        }
-        .titulo{
-            background: black;
-            font-size: 150px;
-            text-align: center;
-            font-weight: 200;
-            mix-blend-mode:multiply;
-        }
 
-    </style>
-
-   
-
-
-                <style>
-                footer{
-                    background-color: khaki;
-                    padding: 40px;
-                }
-                .container{
-                    max-width:800px;
-                    margin:0 auto;
-                    padding:0 20px;
-                }
-                .footer-content{
-                    display: flex;
-                    flex-wrap: wrap;
-                }
-                .footer-section{
-                    width: 100%;
-                    padding: 20px;
-                    box-sizing:border-box;
-                }
-                .about{
-                    text-align:center;
-                }
-                .about h2{
-                    margin-bottom:20px;
-                }
-                .about p{
-                    font-size:18px;
-                    line-height:1.5;
-                    margin-bottom:20px;
-                }
-                .contact-links{
-                    display:flex;
-                    justify-content:center;
-                }
-                .contact-links a{
-                    display:inline-block;
-                    color:black;
-                    font-size: 24px;
-                    margin:0 10px;
-                    transition:all 0.3s ease;
-                }
-                .contact-links a:hover{
-                    transform:translate(-5px);
-                }
-                </style>
-
-
-<footer>
-
-    <div class="container">
-        <div class="footer-content">
-            <div class="fotter-section about">
-
-
-                <h2>Wehrmacht</h2>
-                <p>Si eRes fanatic0 f4cista entonces bUsca esTas rEdes soCialeS</p>
-                <div class="contact-links">
-                <a href="https://www.facebook.com/miperfil"
-                target="_blank"><i class="fab fa-facebook"></i></a>
-                <a href="https://www.instagram.com/miperfil"
-                target="_blank"><i class="fab fa-instagram"></i></a>
-                <a href="https://www.twitter.com/miperfil"
-                target="_blank"><i class="fab fa-twitter"></i></a>
-                <a href="https://www.discord.com/miperfil"
-                target="_blank"><i class="fab fa-discord"></i></a>
-                <a href="https://www.pinterest.com/miperfil"
-                target="_blank"><i class="fab fa-pinterest"></i></a>
-                </div>
-                </div>
-                </div>
-                </div>
-           
 
 
 <script>
-    //este siguiente codigo es para que los enlaces se abran en una nueva pestaña
-    const redessociales = document.querySelectorAll('.contact-links');
+    const redessociales=document.querySelectorAll('.contact-links');
     redessociales.forEach(link =>{
-        link.addEventListener('click', e => {
-            e.preventDefault();
-            window.open(link.href, '_blank');
-        });
+        link.addEventListener('click', e=>{
+        e.preventDefault();
+        window.open(link.href, '_blank');
     });
-
+    });
 </script>
-
-</footer>
-        
-    </body>
-    </html>
+</body>
+</html>
