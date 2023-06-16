@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="xd.css">
+
+    
+    <title>Juanuwu</title>
+</head>
+<body>
+    <header>
+        //aqui ira lo del banner xd
+    </header>
+    <nav>
+        //aqui iran los supervinculos
+    </nav>
+    <section>
+        <article>
+            //mentiras
+        </article>
+        <article>
+            //mas mentiras
+        </article>
+    </section>
+    <aside>
+        //imagenes
+    </aside>
+    <footer>
+        <div id="footer"></div>
+   <script>
+    $(function(){
+        $("#footer").load("/sd/footer.html");
+    });
+   </script>
+
+
+                <style>
+                footer{
+                    background-color: khaki;
+                    padding: 40px;
+                }
+                .container{
+                    max-width:800px;
+                    margin:0 auto;
+                    padding:0 20px;
+                }
+                .footer-content{
+                    display: flex;
+                    flex-wrap: wrap;
+                }
+                .footer-section{
+                    width: 100%;
+                    padding: 20px;
+                    box-sizing:border-box;
+                }
+                .about{
+                    text-align:center;
+                }
+                .about h2{
+                    margin-bottom:20px;
+                }
+                .about p{
+                    font-size:18px;
+                    line-height:1.5;
+                    margin-bottom:20px;
+                }
+                .contact-links{
+                    display:flex;
+                    justify-content:center;
+                }
+                .contact-links a{
+                    display:inline-block;
+                    color:black;
+                    font-size: 24px;
+                    margin:0 10px;
+                    transition:all 0.3s ease;
+                }
+                .contact-links a:hover{
+                    transform:translate(-5px);
+                }
+                </style>
+
+
+<footer>
+</script>
+
+<div id="footer"></div>
+<script>
+$(function(){
+    $("#footer").load("/sd/footer.html");
+});
+</script>
+
+
+            <style>
+            footer{
+                background-color: khaki;
+                padding: 40px;
+            }
+            .container{
+                max-width:800px;
+                margin:0 auto;
+                padding:0 20px;
+            }
+            .footer-content{
+                display: flex;
+                flex-wrap: wrap;
+            }
+            .footer-section{
+                width: 100%;
+                padding: 20px;
+                box-sizing:border-box;
+            }
+            .about{
+                text-align:center;
+            }
+            .about h2{
+                margin-bottom:20px;
+            }
+            .about p{
+                font-size:18px;
+                line-height:1.5;
+                margin-bottom:20px;
+            }
+            .contact-links{
+                display:flex;
+                justify-content:center;
+            }
+            .contact-links a{
+                display:inline-block;
+                color:black;
+                font-size: 24px;
+                margin:0 10px;
+                transition:all 0.3s ease;
+            }
+            .contact-links a:hover{
+                transform:translate(-5px);
+            }
+            </style>
+
+
+<footer>
+
+<div class="container">
+    <div class="footer-content">
+        <div class="fotter-section about">
+
+
+            <h2>Wehrmacht</h2>
+            <p>Si eRes fanatic0 f4cista entonces bUsca esTas rEdes soCialeS</p>
+            <div class="contact-links">
+            <a href="https://www.facebook.com/miperfil"
+            target="_blank"><i class="fab fa-facebook"></i>></a>
+            <a href="https://www.instagram.com/miperfil"
+            target="_blank"><i class="fab fa-instagram"></i>></a>
+            <a href="https://www.twitter.com/miperfil"
+            target="_blank"><i class="fab fa-twitter"></i>></a>
+            <a href="https://www.discord.com/miperfil"
+            target="_blank"><i class="fab fa-discord"></i>></a>
+            <a href="https://www.pinterest.com/miperfil"
+            target="_blank"><i class="fab fa-pinterest"></i>></a>
+            </div>
+            </div>
+            </div>
+            </div>
+       
+
+
+<script>
+//este siguiente codigo es para que los enlaces se abran en una nueva pestaña
+const redessociales = document.querySelectorAll('.contact-links');
+redessociales.forEach(link =>{
+    link.addEventListener('click', e => {
+        e.preventDefault();
+        window.open(link.href, '_blank');
+    });
+});
+
+</script>
+
+</footer>
+    
+        <div class="copyright">
+            <p>&copy; <span id="year"></span> Derechos Reservados.</p>
+
+    </footer>
+
+    <script>
+        let year=document.getElementById('year');
+        let dynamicYear=new Date().getFullYear();
+        year.innerHTML=dynamicYear;
+    </script>
+    
+</body>
+</html>
